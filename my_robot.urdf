@@ -35,7 +35,7 @@
         </visual>
     </link>
 
-    <link name="left_wheel">
+    <link name="left_back_wheel">
         <visual>
             <geometry>
                 <cylinder radius="0.1" length="0.05" />
@@ -45,7 +45,7 @@
         </visual>
     </link>
 
-    <link name="right_wheel">
+    <link name="right_back_wheel">
         <visual>
             <geometry>
                 <cylinder radius="0.1" length="0.05" />
@@ -54,6 +54,26 @@
             <material name="grey" />
         </visual>
     </link>
+
+    <!-- <link name="left_forward_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
+    </link> -->
+
+    <!-- <link name="right_forward_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0" />
+            <material name="grey" />
+        </visual>
+    </link> -->
 
     <link name="caster_wheel">
         <visual>
@@ -77,19 +97,33 @@
         <origin xyz="0 0 0.225" rpy="0 0 0" />
     </joint>
 
-    <joint name="base_left_wheel_joint" type="continuous">
+    <joint name="base_left_back_wheel_joint" type="continuous">
         <parent link="base_link" />
-        <child link="left_wheel" />
+        <child link="left_back_wheel" />
         <origin xyz="-0.15 0.225 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>
 
-    <joint name="base_right_wheel_joint" type="continuous">
+    <joint name="base_right_back_wheel_joint" type="continuous">
         <parent link="base_link" />
-        <child link="right_wheel" />
+        <child link="right_back_wheel" />
         <origin xyz="-0.15 -0.225 0" rpy="0 0 0" />
         <axis xyz="0 1 0" />
     </joint>
+
+    <!-- <joint name="base_left_forward_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_forward_wheel" />
+        <origin xyz="0.15 -0.225 0" rpy="0 0 0" />
+        <axis xyz="0 0 0" />
+    </joint> -->
+
+    <!-- <joint name="base_right_forward_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_forward_wheel" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <axis xyz="0 0 0" />
+    </joint> -->
 
     <joint name="base_caster_wheel_joint" type="fixed">
         <parent link="base_link" />
