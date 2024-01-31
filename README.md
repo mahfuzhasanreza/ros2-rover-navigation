@@ -30,7 +30,7 @@
 18. `ros2 run teleop_twist_keyboard teleop_twist_keyboard`
 
 
-#### Testing output
+## Important
 1. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg/urdf/my_rover.urdf`
 2. `ros2 launch rover_navigation_pkg display.launch.py`
 3. `ros2 launch rover_navigation_pkg gazebo.launch.py`
