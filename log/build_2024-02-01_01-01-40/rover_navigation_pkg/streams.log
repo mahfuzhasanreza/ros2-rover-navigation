@@ -1,0 +1,27 @@
+[0.050s] Invoking command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg -- -j8 -l8
+[0.113s] [100%] Built target rover_navigation_node
+[0.121s] Invoked command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg -- -j8 -l8
+[0.145s] Invoking command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg
+[0.151s] -- Install configuration: ""
+[0.151s] -- Execute custom install script
+[0.151s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/lib/rover_navigation_pkg/rover_navigation_node
+[0.151s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg//launch/display.launch.py
+[0.151s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg//launch/gazebo.launch.py
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg//urdf/my_rover.urdf
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg//rviz/config.rviz
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/ament_index/resource_index/package_run_dependencies/rover_navigation_pkg
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/ament_index/resource_index/parent_prefix_path/rover_navigation_pkg
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/environment/path.sh
+[0.153s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/environment/path.dsv
+[0.153s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/local_setup.bash
+[0.153s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/local_setup.sh
+[0.153s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/local_setup.zsh
+[0.153s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/local_setup.dsv
+[0.153s] -- Symlinking: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/package.dsv
+[0.160s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/ament_index/resource_index/packages/rover_navigation_pkg
+[0.160s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/cmake/rover_navigation_pkgConfig.cmake
+[0.160s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/cmake/rover_navigation_pkgConfig-version.cmake
+[0.160s] -- Up-to-date symlink: /home/mahfuz/ros2-rover-navigation/install/rover_navigation_pkg/share/rover_navigation_pkg/package.xml
+[0.162s] Invoked command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg

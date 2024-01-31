@@ -1,0 +1,64 @@
+[1.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mahfuz/ros2-rover-navigation']
+[1.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mahfuz/ros2-rover-navigation'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f71e2212380>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f71e2210400>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f71e2210400>>)
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.162s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mahfuz/ros2-rover-navigation'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'ignore'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'ignore_ament_install'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['colcon_pkg']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'colcon_pkg'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['colcon_meta']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'colcon_meta'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['ros']
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'ros'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['cmake', 'python']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'cmake'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'python'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extensions ['python_setup_py']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation) by extension 'python_setup_py'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['ignore', 'ignore_ament_install']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'ignore'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'ignore_ament_install'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['colcon_pkg']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'colcon_pkg'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['colcon_meta']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['ros']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'ros'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['cmake', 'python']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'cmake'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'python'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extensions ['python_setup_py']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/cd) by extension 'python_setup_py'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/log) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/log) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/log) ignored
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'ignore_ament_install'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'colcon_pkg'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['colcon_meta']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'colcon_meta'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['ros']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'ros'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['cmake', 'python']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'cmake'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'python'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extensions ['python_setup_py']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src) by extension 'python_setup_py'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extension 'ignore_ament_install'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extension 'colcon_pkg'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extensions ['colcon_meta']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extension 'colcon_meta'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extensions ['ros']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg) by extension 'ros'
+[1.181s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg' with type 'ros.ament_cmake' and name 'rover_navigation_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

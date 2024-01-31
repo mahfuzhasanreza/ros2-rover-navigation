@@ -1,0 +1,4 @@
+Invoking command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg -- -j8 -l8
+Invoked command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg -- -j8 -l8
+Invoking command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg
+Invoked command in '/home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mahfuz/ros2-rover-navigation/build/rover_navigation_pkg
