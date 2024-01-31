@@ -1,4 +1,4 @@
-# ros2-rover-simulator
+# ros2-robotic-simulator
 
 ## Following Steps
 1. `mkdir ros2-robotic-simulator` `cd ros2-robotic-simulator/` `mkdir src` `cd src/`
