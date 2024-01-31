@@ -8,14 +8,29 @@
 5. inside urdf folder, create a file name `my_rover.urdf`
 6. write my urdf code
 7. go to terminal, `cd urdf/`
-8. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg/urdf/my_rover.urdf`
-9. open the vs code, create folders named `launch` and `rviz`
-10. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg/urdf/my_rover.urdf`
-11. save config as in rviz folder named `config.rviz`
-12. creates `display.launch.py` and `gazebo.launch.py` files in launch folder
-13. make `display.launch.py` and `gazebo.launch.py` files are executable
-14. modify the `setup.py` code
-15. `cd` `cd ros2-rover-navigation/` `colcon build --symlink-install`
-16. `source install/local_setup.bash`
-17. modify `display.launch.py` code
-18. 
+8. open the vs code, create folders named `launch` and `rviz`
+9. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg/urdf/my_rover.urdf`
+10. save config as in rviz folder named `config.rviz`
+11. creates `display.launch.py` and `gazebo.launch.py` files in launch folder
+12. make `display.launch.py` and `gazebo.launch.py` files are executable
+13. modify the `setup.py` code:
+      ```
+      # Install launch files.
+      install(DIRECTORY
+        launch
+        urdf
+        rviz
+        DESTINATION share/${PROJECT_NAME}/
+      )
+      ```
+14. `cd` `cd ros2-rover-navigation/` `colcon build --symlink-install`
+15. `source install/local_setup.bash`
+16. modify `display.launch.py` and `gazebo.launch.py` codes
+17. `ros2 launch rover_navigation_pkg gazebo.launch.py`
+18. `ros2 run teleop_twist_keyboard teleop_twist_keyboard`
+
+
+#### Testing output
+1. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2-rover-navigation/src/rover_navigation_pkg/urdf/my_rover.urdf`
+2. `ros2 launch rover_navigation_pkg display.launch.py`
+3. `ros2 launch rover_navigation_pkg gazebo.launch.py`
