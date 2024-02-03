@@ -13,7 +13,7 @@
 10. save config as in rviz folder named `config.rviz`
 11. creates `display.launch.py` and `gazebo.launch.py` files in launch folder
 12. make `display.launch.py` and `gazebo.launch.py` files are executable
-13. modify the `setup.py` code:
+13. modify the `CMakeLists.txt` file by adding these lines:
       ```
       # Install launch files.
       install(DIRECTORY
